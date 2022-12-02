@@ -1,0 +1,7 @@
+
+
+#append to rc.local...
+#sudo sh -c "cat ./rc.local.camsettings >> /etc/rc.local"
+
+v4l2-ctl --set-ctrl=focus_auto=0
+v4l2-ctl --set-ctrl=focus_absolute=35

@@ -1,3 +1,10 @@
+#Manual focus: https://www.reddit.com/r/klippers/comments/scgt31/possible_to_change_camera_settings_in_fluidd/
+#v4l2-ctl --set-ctrl=focus_auto=0
+#v4l2-ctl --set-ctrl=focus_absolute=35
+#Is there a way to add this by config file instead of an rc script?
+
+
+
 ### Windows users: To edit this file use Notepad++, VSCode, Atom or SublimeText.
 ### Do not use Notepad or WordPad.
 
@@ -13,7 +20,7 @@
 #
 # Defaults to auto
 #
-#camera="auto"
+camera="usb"
 
 ### Additional options to supply to MJPG Streamer for the USB camera
 #

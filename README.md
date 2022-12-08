@@ -1,4 +1,7 @@
 # klipper_config
+### This is my own config adapted from matti125's Hands 2 config. This is what I use on my Tenlog TL-D3 Pro.
+
+### Notes from matti125:
 The repository contains the Klipper configurations for a Tenlog Hands 2 printer. Tenlog tends to change their design without changing the product names, and my Hands 2 has a bed size of 220x220, whereas the more recent ones are 235x235.
 The printer itself is upgraded/changed with a few items:
 - Printheads replaced with Titan extruders
